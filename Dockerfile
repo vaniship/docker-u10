@@ -24,6 +24,6 @@ RUN mkdir -p /run/nginx
 WORKDIR /
 
 # Expose ports
-EXPOSE 8888
+EXPOSE 80
 
 CMD ["/start.sh"]
