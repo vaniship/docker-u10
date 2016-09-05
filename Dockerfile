@@ -13,7 +13,7 @@ RUN	npm install -g u10/xchat
 
 ADD /etc/supervisord.conf /etc/supervisord.conf
 ADD /etc/nginx/nginx.conf /etc/nginx/nginx.conf
-ADD /etc/nginx/conf.d/* /etc/nginx/conf.d/
+ADD /etc/nginx/subpath/* /etc/nginx/subpath/
 
 ADD start.sh /start.sh
 RUN chmod +x /start.sh
